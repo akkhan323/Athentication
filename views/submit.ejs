@@ -1,0 +1,18 @@
+    <%- include('partials/header') %>
+
+<div class="jumbotron centered">
+    <div class="container">
+        <i class="fa-solid fa-key"></i>
+        <h1 class="display-3">You have discovered my secrets</h1>
+        <p class="secret-text">Imran khan is my hero</p>
+
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <input type="email" name="secret" class="form-control text-center" placeholder="What's your secret">
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
